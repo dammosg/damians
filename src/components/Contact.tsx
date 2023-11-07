@@ -59,11 +59,11 @@ const Contact = () => {
                   <p>Mail</p>
                 </h3>
                 <a
-                  href="mailto:d.sevillagallardo@ugto.mx"
+                  href="mailto:d.sevillagallardo@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  d.sevillagallardo@ugto.mx
+                  d.sevillagallardo@gmail.com
                 </a>
               </div>
             </div>

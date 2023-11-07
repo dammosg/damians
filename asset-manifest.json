@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/damians/static/css/main.054b8df1.css",
+    "main.css": "/damians/static/css/main.b866dfa5.css",
     "main.js": "/damians/static/js/main.922d2564.js",
     "static/js/787.f8c39280.chunk.js": "/damians/static/js/787.f8c39280.chunk.js",
     "static/media/DevPhoto.jpg": "/damians/static/media/DevPhoto.0376b0ffe436b9e082ff.jpg",
     "static/media/about_img.jpg": "/damians/static/media/about_img.c15068308e7ffe5e98e4.jpg",
     "index.html": "/damians/index.html",
-    "main.054b8df1.css.map": "/damians/static/css/main.054b8df1.css.map",
+    "main.b866dfa5.css.map": "/damians/static/css/main.b866dfa5.css.map",
     "main.922d2564.js.map": "/damians/static/js/main.922d2564.js.map",
     "787.f8c39280.chunk.js.map": "/damians/static/js/787.f8c39280.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.054b8df1.css",
+    "static/css/main.b866dfa5.css",
     "static/js/main.922d2564.js"
   ]
 }

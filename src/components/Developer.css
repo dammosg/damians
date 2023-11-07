@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: center;
   gap: 4rem;
-  max-width: 900px;
+  max-width: 56.25rem;
 }
 
 .hero h1 {
@@ -23,21 +23,23 @@
 }
 
 .dev-img {
-  height: 300px;
+  height: 18.75rem;
   border-radius: 50%;
   transition: all 1s ease-in-out;
 }
 
 .dev-txt {
   display: flex;
+  min-height: 18.75rem;
   flex-direction: column;
-  gap: 1rem;
+  justify-content: space-between;
 }
 
 .skills {
   display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+  flex-direction: row;
+  align-items: end;
+  gap: 2rem;
 }
 
 .skills h4 {
@@ -49,12 +51,13 @@
   padding: 0 1rem;
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  gap: 1.5rem;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .skills .icons img {
-  height: 3.6rem;
+  height: 3.5rem;
   transition: all .2s ease-in-out;
 }
 
@@ -77,21 +80,23 @@
   }
 
   .dev-txt {
+    gap: 2rem;
+    min-height: 0;
     order: 1;
     text-align: center;
   }
 
   .skills {
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: .5rem;
   }
 }
 
 @media (max-width: 560px) {
   .hero {
     padding: 0;
-  }
-  .skills .icons {
-    justify-content: center;
   }
 }
 

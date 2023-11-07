@@ -30,6 +30,7 @@ const Contact = () => {
                 <a
                   href="https://www.linkedin.com/in/d-sevillagallardo/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   linkedin.com/in/d-sevillagallardo/
                 </a>
@@ -57,7 +58,11 @@ const Contact = () => {
                 <h3>
                   <p>Mail</p>
                 </h3>
-                <a href="mailto:d.sevillagallardo@ugto.mx" target="_blank">
+                <a
+                  href="mailto:d.sevillagallardo@ugto.mx"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   d.sevillagallardo@ugto.mx
                 </a>
               </div>

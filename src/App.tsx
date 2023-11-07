@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Sidebar from "./components/Sidebar";
+import "./styles.css";
 
 function App() {
   return (

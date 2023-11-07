@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <a href="">
+        <a href="#hero">
           <h2>Dammo.dev</h2>
         </a>
         <ul>

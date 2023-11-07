@@ -1,0 +1,64 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.projects .card {
+  background-color: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 10px rgba(70, 70, 70, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 20rem;
+  width: 100%;
+  padding: 0 4rem;
+}
+
+.projects .card p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+.gear1 {
+  fill: #e6e6e6;
+  animation: rotate-right 10s linear infinite;
+}
+
+.gear2 {
+  position: relative;
+  top: -1.67rem;
+  fill: #e6e6e6;
+  animation: rotate-left 10s linear infinite;
+}
+
+@keyframes rotate-right {
+  from {
+      transform: rotateZ(0);
+  }
+  to {
+      transform: rotateZ(360deg);
+  }
+}
+
+@keyframes rotate-left {
+  from {
+      transform: rotateZ(0);
+  }
+  to {
+      transform: rotateZ(-360deg);
+  }
+}
+
+@media (max-width: 400px) {
+  .gear2 {
+    display: none;
+  }
+}

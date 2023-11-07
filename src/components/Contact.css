@@ -1,0 +1,51 @@
+#contact h2 {
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.contacts .contact {
+  margin-bottom: 2rem;
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  width: auto;
+}
+
+.contacts .contact span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+@media (max-width: 791px) {
+  #contact h2 {
+    padding: 0;
+    text-align: center;
+  }
+
+  .contact, .contacts {
+    flex-direction: column;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+}

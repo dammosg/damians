@@ -1,0 +1,39 @@
+.sidebar {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 201;
+  transition: all .4s ease-in-out;
+}
+
+.sidebar svg {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
+
+.sidebar span {
+  cursor: pointer;
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  font-weight: 500;
+  gap: 2rem;
+  text-align: center;
+  list-style: none;
+}
+
+.sidebar.closed {
+  left: -100% !important;
+}
+
+.sidebar.open {
+  left: 0;
+}

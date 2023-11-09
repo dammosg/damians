@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/damians/static/css/main.b866dfa5.css",
-    "main.js": "/damians/static/js/main.a5beb87e.js",
+    "main.css": "/damians/static/css/main.6408fc35.css",
+    "main.js": "/damians/static/js/main.9a44997f.js",
     "static/js/787.f8c39280.chunk.js": "/damians/static/js/787.f8c39280.chunk.js",
     "static/media/DevPhoto.jpg": "/damians/static/media/DevPhoto.0376b0ffe436b9e082ff.jpg",
     "static/media/about_img.jpg": "/damians/static/media/about_img.c15068308e7ffe5e98e4.jpg",
     "index.html": "/damians/index.html",
-    "main.b866dfa5.css.map": "/damians/static/css/main.b866dfa5.css.map",
-    "main.a5beb87e.js.map": "/damians/static/js/main.a5beb87e.js.map",
+    "main.6408fc35.css.map": "/damians/static/css/main.6408fc35.css.map",
+    "main.9a44997f.js.map": "/damians/static/js/main.9a44997f.js.map",
     "787.f8c39280.chunk.js.map": "/damians/static/js/787.f8c39280.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b866dfa5.css",
-    "static/js/main.a5beb87e.js"
+    "static/css/main.6408fc35.css",
+    "static/js/main.9a44997f.js"
   ]
 }
